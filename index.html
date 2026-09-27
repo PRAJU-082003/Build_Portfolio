@@ -1,0 +1,249 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prajwal Gundmi • Embedded Enthusiast</title>
+  <meta name="description" content="Portfolio of Prajwal Gundmi – Embedded/IoT/VLSI projects, skills, and contact.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-background">
+  <header class="site-header">
+    <div class="wrap nav">
+      <div class="brand">Prajwal Gundmi</div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#project-moment">Project Moment</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-label="Intro">
+      <div class="wrap hero-inner">
+        <div class="hero-left">
+          <img src="images/profile.jpg" alt="Prajwal Gundmi" class="profile-pic">
+          <span class="tag">Embedded • IoT • VLSI</span>
+          <h1 class="title">
+            Hi, I'm Prajwal — <span class="nowrap">Embedded Enthusiast</span>
+          </h1>
+          <p class="subtitle">Engineering / Embedded / Tech</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact">Get in touch</a>
+            <a class="btn secondary" href="#projects">View projects</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card hero-card">
+            <h3>Based in JP Nagar, Bengaluru</h3>
+            <p>
+              I build reliable embedded systems and neat firmware that connect sensors,
+              silicon, and the cloud.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Summary</h2>
+        </div>
+        <div class="about">
+          <div>
+            <p>
+              Embedded engineer with a hands-on focus on microcontrollers, low-level
+              drivers, and board-bring-up. Comfortable across the stack—from schematics
+              and sensors to RTOS tasks and IoT backends. I enjoy designing tight,
+              readable C/C++ for constrained devices, instrumenting with logic
+              analyzers/oscilloscopes, and validating with unit and hardware-in-loop
+              tests. Exploring VLSI fundamentals to better reason about timing, power,
+              and interfaces at the silicon boundary. Seeking roles where I can ship
+              robust firmware, optimize for reliability and power, and learn from
+              production-grade systems.
+            </p>
+          </div>
+          <div>
+            <p>
+              Strengths: methodical debugging, protocol literacy (I²C/SPI/UART/CAN),
+              and clear documentation. I value clean abstractions, deterministic
+              behavior, and build pipelines that keep teams fast and safe.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Skills</h2>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>RTL Design &amp; Verification</h3>
+            <div class="skills" aria-label="RTL design and verification skills">
+              <span class="chip">Verilog</span>
+              <span class="chip">SystemVerilog</span>
+              <span class="chip">UVM</span>
+              <span class="chip">RTL Design</span>
+              <span class="chip">APB / SPI / SRAM Verification</span>
+              <span class="chip">Cadence Xcelium</span>
+              <span class="chip">QuestaSim / ModelSim</span>
+              <span class="chip">GTKWave</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Embedded Firmware</h3>
+            <div class="skills" aria-label="Embedded firmware skills">
+              <span class="chip">ARM Cortex-M (STM32)</span>
+              <span class="chip">Embedded C</span>
+              <span class="chip">Bare-Metal & RTOS</span>
+              <span class="chip">GPIO / ADC / PWM / Timers</span>
+              <span class="chip">Interrupts & DMA</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Automotive Protocols &amp; Interfaces</h3>
+            <div class="skills" aria-label="Automotive protocol skills">
+              <span class="chip">CAN</span>
+              <span class="chip">LIN</span>
+              <span class="chip">SPI</span>
+              <span class="chip">I²C</span>
+              <span class="chip">UART</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Tools &amp; Languages</h3>
+            <div class="skills" aria-label="Tools and languages">
+              <span class="chip">Python</span>
+              <span class="chip">KiCad</span>
+              <span class="chip">TINA</span>
+              <span class="chip">Git</span>
+              <span class="chip">Linux & Shell</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Projects</h2>
+        </div>
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <img src="images/project1.jpg" alt="IoT Hybrid Power Project">
+            <article class="overlay" aria-labelledby="p1-title">
+              <h3 id="p1-title">IoT-Based Hybrid Power Generation & Monitoring</h3>
+              <div class="meta">Graduation Project • Wind + Solar</div>
+              <p>
+                Designed a small-scale hybrid energy setup combining a PV panel and
+                micro-wind turbine, instrumented with sensors for voltage, current,
+                and RPM. A microcontroller handled MPPT-style control heuristics,
+                safety cut-offs, and data acquisition; telemetry was pushed to a
+                cloud dashboard for live monitoring and basic analytics.
+              </p>
+              <ul class="list">
+                <li>MCU: STM32/ESP32 class; drivers for ADC, PWM, and interrupts.</li>
+                <li>Interfaces: I²C sensors, hall/optical RPM capture via timers.</li>
+                <li>Comms: MQTT over Wi-Fi with offline buffering in flash.</li>
+                <li>Safety: over-voltage/current thresholds and dump load logic.</li>
+                <li>Dashboard: live graphs for solar vs wind contribution.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <img src="images/project2.jpg" alt="AI Face Recognition Project">
+            <article class="overlay" aria-labelledby="p2-title">
+              <h3 id="p2-title">AI-Based Face Recognition (Iris/Eye Region Dataset)</h3>
+              <div class="meta">Computer Vision • Deep Learning</div>
+              <p>
+                Built a compact recognition pipeline targeting the peri-ocular
+                region (iris/eye) for identity verification. The system performs
+                grayscale normalization, eye region detection, and feature extraction
+                with a lightweight CNN, followed by cosine-similarity matching.
+              </p>
+              <ul class="list">
+                <li>Pre-processing: histogram equalization, eye/iris crop.</li>
+                <li>Model: shallow CNN with depthwise separable layers.</li>
+                <li>Training: Python + PyTorch, early stopping, LR scheduling.</li>
+                <li>Deployment: ONNX export; real-time CPU-only inference.</li>
+                <li>Evaluation: verification thresholds with ROC analysis.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="project-moment">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Project Moment</h2>
+    </div>
+    <div class="project-moment-grid">
+
+      <!-- Moment 1 (GIF) -->
+      <figure class="moment-card">
+        <img src="images/moment1.mp4" alt="Hybrid power wind">
+        <figcaption>Hybrid Power System (GIF)</figcaption>
+      </figure>
+
+      <!-- Moment 2 -->
+      <figure class="moment-card">
+        <img src="images/moment2.jpg" alt="Close-up of embedded PCB">
+        <figcaption>Embedded hardware close-up</figcaption>
+      </figure>
+
+      <!-- Moment 3 -->
+      <figure class="moment-card">
+        <img src="images/moment3.jpg" alt="Firmware debugging setup">
+        <figcaption>Firmware debugging session</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Contact</h2>
+        </div>
+        <div class="contact">
+          <p>📞 +91 84315 49803</p>
+          <p>✉️ <a href="mailto:prajwalgundmi@gmail.com">prajwalgundmi@gmail.com</a></p>
+          <p>📍 JP Nagar 5th Phase, JP Nagar, Bengaluru</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      © <span id="year"></span> Prajwal Gundmi. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
